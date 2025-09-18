@@ -1,0 +1,22 @@
+# .gitignore pour le projet email_sender
+
+# Fichiers de configuration sensibles
+.env
+
+# Dossier des fichiers uploadés
+uploads/
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Fichiers générés par l'environnement virtuel
+venv/
+env/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Rapport HTML ou autres fichiers générés
+*.html
